@@ -1,3 +1,22 @@
 .footer {
   background-color: var(--primary);
+  color: var(--neutral-light);
+  padding-bottom: 2rem;
+}
+.footer h2 {
+  text-transform: capitalize;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 0.62rem;
+  font-weight: 200;
+}
+
+.footer ul li a {
+  color: var(--neutral-light);
+  text-decoration: none;
 }

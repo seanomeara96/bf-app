@@ -7,4 +7,5 @@
   --text-hover: #a5a5a5;
   --container: 0.62rem 2rem;
   --button-primary: #60195e;
+  --box-shadow-subtle: 0 0 5px 0.01px rgba(165, 165, 165, 0.5);
 }

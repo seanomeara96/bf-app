@@ -5,6 +5,7 @@ import SearchBar from "./components/search-bar/search-bar";
 import HeroImage from "./components/hero-image/hero-image";
 import ProductCarousel from "./components/product-carousel/product-carousel";
 import Footer from "./components/footer/footer";
+import BottomNav from "./components/bottom-nav/bottom-nav";
 const App = () => {
   return (
     <div className={styles.app}>
@@ -18,10 +19,7 @@ const App = () => {
       <ProductCarousel title="new products" productSelectionLogic="latest" />
       <ProductCarousel title="top products" productSelectionLogic="top" />
       <Footer />
-      {/*
-      
       <BottomNav />
-       */}
     </div>
   );
 };

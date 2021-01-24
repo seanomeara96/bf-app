@@ -1,0 +1,12 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-light);
+  width: 100%;
+  box-shadow: var(--box-shadow-subtle);
+}
+.container > div {
+  display: flex;
+  justify-content: space-evenly;
+}
