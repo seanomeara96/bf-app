@@ -1,0 +1,27 @@
+.preview {
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 3px 0.5px var(--text-hover);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.image {
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+.brand,
+.price {
+  display: block;
+}
+.name {
+  margin: 0.62rem 0;
+}
+.brand {
+  text-transform: uppercase;
+}
+.price {
+  margin-bottom: 0.62rem;
+  font-size: 1.2rem;
+}

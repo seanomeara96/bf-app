@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--tertiary);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: var(--container);
+}

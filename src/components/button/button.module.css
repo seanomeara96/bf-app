@@ -1,0 +1,11 @@
+.button {
+  padding: 0.62rem;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  border: 0;
+}
+
+.primary {
+  background-color: var(--button-primary);
+  color: var(--neutral-light);
+}
