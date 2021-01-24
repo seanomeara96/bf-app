@@ -4,6 +4,8 @@
   box-shadow: 0 0 3px 0.5px var(--text-hover);
   border-radius: 1rem;
   margin-bottom: 2rem;
+  margin-right: 2rem;
+  width: 200px;
 }
 .image {
   position: relative;
@@ -24,4 +26,10 @@
 .price {
   margin-bottom: 0.62rem;
   font-size: 1.2rem;
+}
+.inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

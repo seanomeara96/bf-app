@@ -5,13 +5,12 @@ import Container from "../container/container";
 const ProductPreview = ({ imgSrc, brand, productName, price, alt }) => {
   return (
     <div className={styles.preview}>
-      <Container>
+      <div className={styles.inner}>
         <img className={styles.image} src={imgSrc} alt={alt} />
         <span className={styles.brand}>{brand}</span>
-        <h3 className={styles.name}>{productName}</h3>
         <span className={styles.price}>€{price}</span>
         <Button primary>add to cart</Button>
-      </Container>
+      </div>
     </div>
   );
 };

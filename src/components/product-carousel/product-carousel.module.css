@@ -2,3 +2,10 @@
   text-transform: uppercase;
   text-align: center;
 }
+.horizontal {
+  display: inline-flex;
+  padding: var(--container);
+}
+.scroll {
+  overflow-x: scroll;
+}

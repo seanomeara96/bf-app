@@ -22,10 +22,12 @@ const ProductCarousel = ({ title, productSelectionLogic }) => {
       />
     ));
   return (
-    <Container>
+    <>
       <h2 className={styles.title}>{title}</h2>
-      {productList}
-    </Container>
+      <div className={styles.scroll}>
+        <div className={styles.horizontal}>{productList}</div>
+      </div>
+    </>
   );
 };
 
