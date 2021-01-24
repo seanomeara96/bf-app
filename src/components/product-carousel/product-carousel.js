@@ -1,26 +1,9 @@
 import React from "react";
-import products from "../../products.json";
-import Container from "../container/container";
-import ProductPreview from "../product-preview/product-preview";
+import { latestProducts } from "../../utils/ProductSelectionLogic";
 import styles from "./product-carousel.module.css";
 const ProductCarousel = ({ title, productSelectionLogic }) => {
-  let productList = products
-    .slice(-4)
-    .reverse()
-    .map((product) => (
-      <ProductPreview
-        key={product["Images"]}
-        alt={product["Name"]}
-        imgSrc={
-          product["Images"].split(": ")[
-            product["Images"].split(": ").length - 1
-          ]
-        }
-        brand={product["Brand"]}
-        productName={product["Name"]}
-        price={product["Retail Price"]}
-      />
-    ));
+  let productList = latestProducts();
+
   return (
     <>
       <h2 className={styles.title}>{title}</h2>
