@@ -5,13 +5,13 @@
   border-radius: 1rem;
   margin-bottom: 2rem;
   margin-right: 2rem;
-  width: 200px;
 }
 .image {
   position: relative;
   object-fit: cover;
   object-position: center;
-  width: 100%;
+  width: 200px;
+  height: 200px;
 }
 .brand,
 .price {
